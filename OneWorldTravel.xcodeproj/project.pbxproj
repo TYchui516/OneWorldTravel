@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAFBD61E2E6AE56700B97044 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAFBD61D2E6AE56700B97044 /* GoogleService-Info.plist */; };
+		CAFBD6212E6AE6FB00B97044 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CAFBD6202E6AE6FB00B97044 /* FirebaseAnalytics */; };
+		CAFBD6232E6AE6FB00B97044 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CAFBD6222E6AE6FB00B97044 /* FirebaseAuth */; };
+		CAFBD6252E6AE6FB00B97044 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CAFBD6242E6AE6FB00B97044 /* FirebaseFirestore */; };
+		CAFBD6272E6AE6FB00B97044 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CAFBD6262E6AE6FB00B97044 /* FirebaseStorage */; };
+		CAFBD62F2E6B5D8F00B97044 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAFBD62E2E6B5D8F00B97044 /* Config.plist */; };
+		CAFBD6352E6BD38A00B97044 /* OneWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBD6342E6BD38A00B97044 /* OneWorldApp.swift */; };
+		CAFBD64D2E6BD51700B97044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFBD6432E6BD51700B97044 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAFBD6012E6AE2B700B97044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFBD5EB2E6AE2B400B97044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFBD5F22E6AE2B400B97044;
+			remoteInfo = "One World Translation";
+		};
+		CAFBD60B2E6AE2B700B97044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFBD5EB2E6AE2B400B97044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFBD5F22E6AE2B400B97044;
+			remoteInfo = "One World Translation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAFBD5F32E6AE2B400B97044 /* One World Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One World Travel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFBD6002E6AE2B700B97044 /* One World TravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "One World TravelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFBD60A2E6AE2B700B97044 /* One World TravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "One World TravelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFBD61D2E6AE56700B97044 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CAFBD62E2E6B5D8F00B97044 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		CAFBD6342E6BD38A00B97044 /* OneWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneWorldApp.swift; sourceTree = "<group>"; };
+		CAFBD6432E6BD51700B97044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAFBD66D2E6BFE9000B97044 /* One-World-Travel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "One-World-Travel-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CAFBD6032E6AE2B700B97044 /* One World TravelTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "One World TravelTests";
+			sourceTree = "<group>";
+		};
+		CAFBD60D2E6AE2B700B97044 /* One World TravelUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "One World TravelUITests";
+			sourceTree = "<group>";
+		};
+		CAFBD6372E6BD50600B97044 /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CAFBD6482E6BD51700B97044 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CAFBD6632E6BD98600B97044 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFBD5F02E6AE2B400B97044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFBD6212E6AE6FB00B97044 /* FirebaseAnalytics in Frameworks */,
+				CAFBD6272E6AE6FB00B97044 /* FirebaseStorage in Frameworks */,
+				CAFBD6232E6AE6FB00B97044 /* FirebaseAuth in Frameworks */,
+				CAFBD6252E6AE6FB00B97044 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFBD5FD2E6AE2B700B97044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFBD6072E6AE2B700B97044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAFBD5EA2E6AE2B400B97044 = {
+			isa = PBXGroup;
+			children = (
+				CAFBD66D2E6BFE9000B97044 /* One-World-Travel-Info.plist */,
+				CAFBD6632E6BD98600B97044 /* Models */,
+				CAFBD6342E6BD38A00B97044 /* OneWorldApp.swift */,
+				CAFBD6372E6BD50600B97044 /* Services */,
+				CAFBD6482E6BD51700B97044 /* Views */,
+				CAFBD60D2E6AE2B700B97044 /* One World TravelUITests */,
+				CAFBD6032E6AE2B700B97044 /* One World TravelTests */,
+				CAFBD5F42E6AE2B400B97044 /* Products */,
+				CAFBD61D2E6AE56700B97044 /* GoogleService-Info.plist */,
+				CAFBD62E2E6B5D8F00B97044 /* Config.plist */,
+				CAFBD6432E6BD51700B97044 /* Assets.xcassets */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFBD5F42E6AE2B400B97044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBD5F32E6AE2B400B97044 /* One World Travel.app */,
+				CAFBD6002E6AE2B700B97044 /* One World TravelTests.xctest */,
+				CAFBD60A2E6AE2B700B97044 /* One World TravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFBD5F22E6AE2B400B97044 /* One World Travel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFBD6142E6AE2B700B97044 /* Build configuration list for PBXNativeTarget "One World Travel" */;
+			buildPhases = (
+				CAFBD5EF2E6AE2B400B97044 /* Sources */,
+				CAFBD5F02E6AE2B400B97044 /* Frameworks */,
+				CAFBD5F12E6AE2B400B97044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CAFBD6372E6BD50600B97044 /* Services */,
+				CAFBD6482E6BD51700B97044 /* Views */,
+				CAFBD6632E6BD98600B97044 /* Models */,
+			);
+			name = "One World Travel";
+			packageProductDependencies = (
+				CAFBD6202E6AE6FB00B97044 /* FirebaseAnalytics */,
+				CAFBD6222E6AE6FB00B97044 /* FirebaseAuth */,
+				CAFBD6242E6AE6FB00B97044 /* FirebaseFirestore */,
+				CAFBD6262E6AE6FB00B97044 /* FirebaseStorage */,
+			);
+			productName = "One World Translation";
+			productReference = CAFBD5F32E6AE2B400B97044 /* One World Travel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAFBD5FF2E6AE2B700B97044 /* One World TravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFBD6172E6AE2B700B97044 /* Build configuration list for PBXNativeTarget "One World TravelTests" */;
+			buildPhases = (
+				CAFBD5FC2E6AE2B700B97044 /* Sources */,
+				CAFBD5FD2E6AE2B700B97044 /* Frameworks */,
+				CAFBD5FE2E6AE2B700B97044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFBD6022E6AE2B700B97044 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CAFBD6032E6AE2B700B97044 /* One World TravelTests */,
+			);
+			name = "One World TravelTests";
+			packageProductDependencies = (
+			);
+			productName = "One World TranslationTests";
+			productReference = CAFBD6002E6AE2B700B97044 /* One World TravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAFBD6092E6AE2B700B97044 /* One World TravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFBD61A2E6AE2B700B97044 /* Build configuration list for PBXNativeTarget "One World TravelUITests" */;
+			buildPhases = (
+				CAFBD6062E6AE2B700B97044 /* Sources */,
+				CAFBD6072E6AE2B700B97044 /* Frameworks */,
+				CAFBD6082E6AE2B700B97044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFBD60C2E6AE2B700B97044 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CAFBD60D2E6AE2B700B97044 /* One World TravelUITests */,
+			);
+			name = "One World TravelUITests";
+			packageProductDependencies = (
+			);
+			productName = "One World TranslationUITests";
+			productReference = CAFBD60A2E6AE2B700B97044 /* One World TravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFBD5EB2E6AE2B400B97044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					CAFBD5F22E6AE2B400B97044 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					CAFBD5FF2E6AE2B700B97044 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = CAFBD5F22E6AE2B400B97044;
+					};
+					CAFBD6092E6AE2B700B97044 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = CAFBD5F22E6AE2B400B97044;
+					};
+				};
+			};
+			buildConfigurationList = CAFBD5EE2E6AE2B400B97044 /* Build configuration list for PBXProject "One World Travel" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAFBD5EA2E6AE2B400B97044;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CAFBD61F2E6AE6FB00B97044 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CAFBD5F42E6AE2B400B97044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFBD5F22E6AE2B400B97044 /* One World Travel */,
+				CAFBD5FF2E6AE2B700B97044 /* One World TravelTests */,
+				CAFBD6092E6AE2B700B97044 /* One World TravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFBD5F12E6AE2B400B97044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFBD62F2E6B5D8F00B97044 /* Config.plist in Resources */,
+				CAFBD64D2E6BD51700B97044 /* Assets.xcassets in Resources */,
+				CAFBD61E2E6AE56700B97044 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFBD5FE2E6AE2B700B97044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFBD6082E6AE2B700B97044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFBD5EF2E6AE2B400B97044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFBD6352E6BD38A00B97044 /* OneWorldApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFBD5FC2E6AE2B700B97044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFBD6062E6AE2B700B97044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAFBD6022E6AE2B700B97044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFBD5F22E6AE2B400B97044 /* One World Travel */;
+			targetProxy = CAFBD6012E6AE2B700B97044 /* PBXContainerItemProxy */;
+		};
+		CAFBD60C2E6AE2B700B97044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFBD5F22E6AE2B400B97044 /* One World Travel */;
+			targetProxy = CAFBD60B2E6AE2B700B97044 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CAFBD6122E6AE2B700B97044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAFBD6132E6AE2B700B97044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAFBD6152E6AE2B700B97044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A8QX84S3A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "One-World-Travel-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OneWorld Travel";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App 需要使用麥克風用於語音輸入";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "App 需要使用語音辨識功能以協助翻譯";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.limitlessocreative.One-World-Translation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAFBD6162E6AE2B700B97044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A8QX84S3A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "One-World-Travel-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OneWorld Travel";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App 需要使用麥克風用於語音輸入";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "App 需要使用語音辨識功能以協助翻譯";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.limitlessocreative.One-World-Translation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAFBD6182E6AE2B700B97044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.limitlessocreative.One-World-TranslationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/One World Travel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/One World Travel";
+			};
+			name = Debug;
+		};
+		CAFBD6192E6AE2B700B97044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.limitlessocreative.One-World-TranslationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/One World Travel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/One World Travel";
+			};
+			name = Release;
+		};
+		CAFBD61B2E6AE2B700B97044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.limitlessocreative.One-World-TranslationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "One World Translation";
+			};
+			name = Debug;
+		};
+		CAFBD61C2E6AE2B700B97044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.limitlessocreative.One-World-TranslationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "One World Translation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFBD5EE2E6AE2B400B97044 /* Build configuration list for PBXProject "One World Travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFBD6122E6AE2B700B97044 /* Debug */,
+				CAFBD6132E6AE2B700B97044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFBD6142E6AE2B700B97044 /* Build configuration list for PBXNativeTarget "One World Travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFBD6152E6AE2B700B97044 /* Debug */,
+				CAFBD6162E6AE2B700B97044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFBD6172E6AE2B700B97044 /* Build configuration list for PBXNativeTarget "One World TravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFBD6182E6AE2B700B97044 /* Debug */,
+				CAFBD6192E6AE2B700B97044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFBD61A2E6AE2B700B97044 /* Build configuration list for PBXNativeTarget "One World TravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFBD61B2E6AE2B700B97044 /* Debug */,
+				CAFBD61C2E6AE2B700B97044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CAFBD61F2E6AE6FB00B97044 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CAFBD6202E6AE6FB00B97044 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAFBD61F2E6AE6FB00B97044 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CAFBD6222E6AE6FB00B97044 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAFBD61F2E6AE6FB00B97044 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CAFBD6242E6AE6FB00B97044 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAFBD61F2E6AE6FB00B97044 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		CAFBD6262E6AE6FB00B97044 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAFBD61F2E6AE6FB00B97044 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CAFBD5EB2E6AE2B400B97044 /* Project object */;
+}
